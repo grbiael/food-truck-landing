@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com");
+@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Roboto:wght@300&display=swap');
+
+body {
+	font-family: 'Redressed', serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+h1, h2, h3 {
+	font-family: 'Redressed', serif;
+	font-weight: bold;
+	color: rgb(150,20,20);
+	margin: 40px;
+}
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+
+#text_center {
+	text-align: center;
+}
+
+.logo_center {
+	width: 200px;
+	margin: 10px auto;
+	display: flex;
+	height: 200px;
+	border-radius: 200px;
+	text-align: center;
+}
+a:hover {
+	text-decoration: underline;
+	color: rgb(150,20,20);
+	box-shadow: 0px 20px 30px rgba(0,0,0, 0.3);
+	font-weight: bold;
+}
+a {
+	text-decoration: none;
+}
+#color_pale_red {
+	color: #E6928D;
+}
